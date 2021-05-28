@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58">
+  <g id="facebook_contato" transform="translate(-1010 -2837)">
+    <g id="Rectangle_11" data-name="Rectangle 11" transform="translate(1010 2837)" fill="none" stroke="#806a5e" stroke-width="3">
+      <rect width="58" height="58" stroke="none"/>
+      <rect x="1.5" y="1.5" width="55" height="55" fill="none"/>
+    </g>
+    <path id="facebook-contato" d="M12.424,33.024a.421.421,0,0,0,.421.421h6a.421.421,0,0,0,.421-.421V16.591h4.353a.421.421,0,0,0,.42-.387l.418-4.95a.421.421,0,0,0-.419-.457H19.271V7.285a1.491,1.491,0,0,1,1.49-1.491h3.355a.421.421,0,0,0,.421-.421V.421A.421.421,0,0,0,24.116,0H18.448a6.023,6.023,0,0,0-6.023,6.023V10.8h-3a.421.421,0,0,0-.421.42V16.17a.421.421,0,0,0,.421.421h3Z" transform="translate(1022 2850)" fill="#806a5e" fill-rule="evenodd"/>
+  </g>
+</svg>

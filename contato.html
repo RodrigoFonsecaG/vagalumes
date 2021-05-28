@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Vagalumes - Entre em contato conosco</title>
+    <meta name="description" content="Equipe-se e fique preparado para enfrentar o apocalipse com as armas, medicamentos e mantimentos vendidos pelos vagalumes">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Vagalumes - Entre em contato conosco" />
+    <meta property="og:description" content="Equipe-se e fique preparado para enfrentar o apocalipse com as armas, medicamentos e mantimentos vendidos pelos vagalumes" />
+    <meta property="og:url" content="https://vagalumes.com.br/contato.html"/>
+    <meta property="og:image" content="https://vagalumes.com.br/img/og-image.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script>document.documentElement.classList.add("js");</script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="grid-4">
+                <img src="/img/vagalumes.svg" alt="Vagalumes">
+            </a>
+            <nav class="header_menu grid-12">
+                <ul>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="clientes.html">Clientes</a></li>
+                    <li><a href="contato.html" class="menu_ativo">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="introducao-interna interna_contato">
+        <div class="container">
+            <h1 data-anime="400" class="fadeInDown">Contato</h1>
+            <p data-anime="800" class="fadeInDown">tire as suas dúvidas conosco</p>
+        </div>
+    </section>
+
+    <section data-anime="1200" class="contato container fadeInDown">
+        <form id="form_orcamento" class="contato_form grid-8 formphp" method="POST" action="./enviar.php">
+            
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" name="telefone">
+
+
+            <label class="nao-aparece">Se você não é um robô, deixe em branco</label>
+            <input type="text" class="nao-aparece" name="leaveblank">
+            <label class="nao-aparece">Se você não é um robô, não mude esse campo</label>
+            <input type="text" class="nao-aparece" name="dontchange" value="http://">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button id="enviar" name="enviar" type="submit" class="btn btn-branco">Enviar</button>
+
+        </form>
+        <div class="contato_dados grid-8">
+            <h3>Dados</h3>
+            <span>(38) 991860318</span>
+            <span>orçamento@vagalumes.com</span>
+            <span>4 S Market St, Boston, Massachusetts</span>
+            <h3>Redes sociais</h3>
+            <ul>
+                <li><a href="https://www.facebook.com/" target="_blank"><img src="/img/redes-sociais/facebook_contato.svg" alt="facebook vagalumes"></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><img src="/img/redes-sociais/instagram_contato.svg" alt="instagram vagalumes"></a></li>
+                <li><a href="https://www.twitter.com/" target="_blank"><img src="/img/redes-sociais/twitter_contato.svg" alt="twitter vagalumes"></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section data-anime="1400" class="container contato_mapa fadeInDown ">
+        <a href="https://www.google.com/maps/place/4+S+Market+St,+Boston,+MA+02109,+EUA/@42.360129,-71.0571273,17z/data=!3m1!4b1!4m5!3m4!1s0x89e37085df8aeeeb:0xb015997c130aebd3!8m2!3d42.360129!4d-71.0549386" target="_blank" class="grid-16"><img src="/img/mapa.jpg" alt="endereço vagalumes"></a>
+    </section>
+
+
+    <section class="quebra quebra-contato">
+        <blockquote class="quote-externo container">
+            <p>
+                ⁠Talvez as mentiras que contamos sejam menos horríveis que as verdades que escondemos.
+            </p>
+            <cite>William Price</cite>
+        </blockquote>
+    </section>
+
+
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="grid-8 footer_historia">
+                    <h3>NOSSA HISTÓRIA</h3>
+                    <p>Os vagalumes nasceram em 2036 após o surto do CBI em resposta à lei marcial militar dos EUA colocada nas zonas de quarentena, lutamos em várias zonas de quarentena contra a opressão militar,e continuamos lutando até os dias atuais, para isso criamos o nosso comércio para auxiliar os que procuram lutar junto conosco.</p>
+                </div>
+
+                <div class="grid-4 footer_contato">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li>- (38) 991860318</li>
+                        <li>- contato@vagalumes.com</li>
+                        <li>- 4 S Market St, Boston</li>
+                    </ul>
+                </div>
+
+                <div class="grid-4 footer_redes">
+                    <h3>Redes sociais</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/" target="_blank"><img src="/img/redes-sociais/facebook.svg" alt="facebook vagalumes"></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="/img/redes-sociais/instagram.svg" alt="instagram vagalumes"></a></li>
+                        <li><a href="https://www.twitter.com/" target="_blank"><img src="/img/redes-sociais/twitter.svg" alt="twitter vagalumes"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="copy">
+            <div class="container">
+                <p class="grid-16">Vagalumes - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/simple-form.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>

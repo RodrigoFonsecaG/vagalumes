@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Vagalumes - Armas, Medicamentos e Mantimentos</title>
+    <meta name="description" content="Equipe-se e fique preparado para enfrentar o apocalipse com as armas, medicamentos e mantimentos vendidos pelos vagalumes">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Vagalumes - Armas, Medicamentos e Mantimentos" />
+    <meta property="og:description" content="Equipe-se e fique preparado para enfrentar o apocalipse com as armas, medicamentos e mantimentos vendidos pelos vagalumes" />
+    <meta property="og:url" content="https://vagalumes.com.br/produtos.html" />
+    <meta property="og:image" content="https://vagalumes.com.br/img/og-image.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script>document.documentElement.classList.add("js");</script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="grid-4">
+                <img src="/img/vagalumes.svg" alt="Vagalumes">
+            </a>
+            <nav class="header_menu grid-12">
+                <ul>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="produtos.html" class="menu_ativo">Produtos</a></li>
+                    <li><a href="clientes.html">Clientes</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="introducao-interna interna_produtos">
+        <div class="container">
+            <h1 data-anime="400" class="fadeInDown">PRODUTOS</h1>
+            <p data-anime="800" class="fadeInDown">conheça nossos produtos em estoque</p>
+        </div>
+    </section>
+
+    <section data-anime="1200" class="container produto_item primeiro_item fadeInDown">
+        <div class="grid-11"><img src="img/produtos/vagalumes_armas_1.jpg" alt="Vagalumes Armas">
+            <h2>Armas</h2>
+        </div>
+        <div class="grid-5 produto_icone"><img src="img/produtos/gun.svg" alt="Vagalumes Armas icone"></div>
+        <div class="grid-8"><img src="/img/produtos/vagalumes_armas_2.jpg" alt="Vagalumes Armas 2"></div>
+        <div class="grid-8 produto_info primeiro_info"><img src="/img/produtos/vagalumes_armas_3.jpg" alt="Vagalumes Armas 3">
+            <ul>
+                <li>Alta cadência</li>
+                <li>Letal</li>
+                <li>Alto alcance</li>
+                <li>Customizável</li>
+            </ul>
+        </div>
+    </section>
+
+    <section data-anime="1200" class="container produto_item fadeInDown">
+        <div class="grid-11"><img src="img/produtos/vagalumes_med_1.jpg" alt="Vagalumes Medicamentos">
+            <h2>Medicamentos</h2>
+        </div>
+        <div class="grid-5 produto_icone"><img src="img/produtos/medicine.svg" alt="Vagalumes Medicamentos icone"></div>
+        <div class="grid-8"><img src="/img/produtos/vagalumes_med_2.jpg" alt="Vagalumes Medicamentos 2"></div>
+        <div class="grid-8 produto_info"><img src="/img/produtos/vagalumes_med_3.jpg" alt="Vagalumes Medicamentos 3">
+            <ul>
+                <li>Analgésicos</li>
+                <li>Alopáticos</li>
+                <li>Anestésicos</li>
+                <li>Anti-inflamatórios</li>
+            </ul>
+        </div>
+    </section>
+
+    <section data-anime="1200" class="container produto_item fadeInDown">
+        <div class="grid-11"><img src="img/produtos/vagalumes_mant_1.jpg" alt="Vagalumes Mantimentos">
+            <h2>Mantimentos</h2>
+        </div>
+        <div class="grid-5 produto_icone"><img src="img/produtos/groceries.svg" alt="Vagalumes Mantimentos icone"></div>
+        <div class="grid-8"><img src="/img/produtos/vagalumes_mant_2.jpg" alt="Vagalumes Mantimentos 2"></div>
+        <div class="grid-8 produto_info"><img src="/img/produtos/vagalumes_mant_3.jpg" alt="Vagalumes Mantimentos 3">
+            <ul>
+                <li>Enlatados</li>
+                <li>Bebidas</li>
+                <li>Grãos</li>
+                <li>Rações</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="orcamento">
+        <div class="container">
+            <h2 class="subtitulo">Orçamento</h2>
+
+            <form id="form_orcamento" class="form grid-8 formphp" action="./enviar.php" method="POST">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" name="telefone">
+
+
+                <label class="nao-aparece">Se você não é um robô, deixe em branco</label>
+                <input type="text" class="nao-aparece" name="leaveblank">
+                <label class="nao-aparece">Se você não é um robô, não mude esse campo</label>
+                <input type="text" class="nao-aparece" name="dontchange" value="http://">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button id="enviar" name="enviar" type="submit" class="btn btn-branco">Enviar</button>
+
+            </form>
+            <div class="orcamento_dados grid-8">
+                <h3>Dados</h3>
+                <span>(38) 991860318</span>
+                <span>orçamento@vagalumes.com</span>
+                <p>Para compra de armas, escolha as especificações:</p>
+                <ul>
+                    <li>- Munições</li>
+                    <li>- Miras</li>
+                    <li>- Carregadores</li>
+                    <li>- Silenciadores</li>
+                    <li>- Entre outros</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="quebra quebra-produtos">
+        <blockquote class="quote-externo container">
+            <p>
+                se de alguma forma deus me desse uma segunda chance naquele momento, eu faria tudo de novo.
+            </p>
+            <cite>JOEL MILLER</cite>
+        </blockquote>
+    </section>
+
+
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="grid-8 footer_historia">
+                    <h3>NOSSA HISTÓRIA</h3>
+                    <p>Os vagalumes nasceram em 2036 após o surto do CBI em resposta à lei marcial militar dos EUA colocada nas zonas de quarentena, lutamos em várias zonas de quarentena contra a opressão militar,e continuamos lutando até os dias atuais, para isso criamos o nosso comércio para auxiliar os que procuram lutar junto conosco.</p>
+                </div>
+
+                <div class="grid-4 footer_contato">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li>- (38) 991860318</li>
+                        <li>- contato@vagalumes.com</li>
+                        <li>- 4 S Market St, Boston</li>
+                    </ul>
+                </div>
+
+                <div class="grid-4 footer_redes">
+                    <h3>Redes sociais</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/" target="_blank"><img src="/img/redes-sociais/facebook.svg" alt="facebook vagalumes"></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="/img/redes-sociais/instagram.svg" alt="instagram vagalumes"></a></li>
+                        <li><a href="https://www.twitter.com/" target="_blank"><img src="/img/redes-sociais/twitter.svg" alt="twitter vagalumes"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="copy">
+            <div class="container">
+                <p class="grid-16">Vagalumes - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/simple-form.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>

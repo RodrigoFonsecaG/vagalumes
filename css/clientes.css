@@ -1,0 +1,36 @@
+.interna_clientes {
+  background: url("../img/bg_clientes.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.quote-clientes {
+  padding: 60px 0;
+  max-width: 460px;
+  height: 215px;
+  margin: 0 auto;
+}
+
+.quote-clientes p {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.quote-clientes cite {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  float:right;
+}
+
+.quebra-clientes {
+  background: url("../img/bg_quebra_clientes.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.quebra-clientes .quote-externo {
+  max-width: 500px;
+}

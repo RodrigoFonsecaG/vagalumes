@@ -1,0 +1,170 @@
+/*Tablets*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  .quote-externo {
+    margin-bottom: 40px;
+  }
+
+  /*Filosofia home*/
+
+  .filosofia:after {
+    right: 75px;
+  }
+
+  .filosofia_lista li {
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  /*Footer*/
+
+  .footer_redes ul li a {
+    padding: 6px;
+  }
+
+  .footer_redes ul li a img{
+    width: 42px;
+    height: 42px;
+  }
+
+  /*Produtos*/
+
+  .produto_item h2 {
+    top: -147px;
+    margin-bottom: -54px;
+  }
+
+  .produto_icone {
+    padding: 41px 0;
+  }
+
+  .produto_info ul li {
+    font-size: 18px;
+    line-height: 10px;
+    width: 181px;
+    height: 38px;
+  }
+
+}
+
+/*Smartphone*/
+@media only screen and (max-width: 787px) {
+  /*Header*/
+
+  .header {
+    position: relative;
+    padding-bottom: 0px;
+  }
+
+  .header img {
+    margin: 0 auto 10px auto;
+  }
+
+  .header_menu {
+    text-align: center;
+  }
+
+  .header_menu li {
+    margin: 5px;
+  }
+
+  .header_menu li a {
+    border: 2px solid #344646;
+    width: 136px;
+    display: block;
+    float: left;
+  }
+
+  .header_menu li a:hover {
+    border-color: #d7a974;
+  }
+
+  .header_menu li a.menu_ativo {
+    color: #fff;
+    border-color: #fff;
+  }
+
+  /*Introdução*/
+
+  .introducao {
+    margin-top: 0px;
+    padding-top: 20px;
+    background: url("../img/bg_home_mobile.jpg") no-repeat center;
+  }
+
+  .quote-externo {
+    margin-bottom: 40px;
+  }
+
+  /*Introdução interna*/
+
+  .introducao-interna {
+    margin-top: 0px;
+  }
+
+  /*Call*/
+
+  .call {
+    padding-top: 10px;
+  }
+
+  /*Produtos*/
+  .produtos_lista li p {
+    padding-bottom: 10px;
+  }
+
+  .filosofia:after {
+    display: none;
+  }
+
+  .filosofia img {
+    padding-bottom: 20px;
+  }
+
+  /*Sobre*/
+
+  .missao p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  /*Produtos*/
+  .produto_item h2 {
+    top: -100px;
+    margin-bottom: -66px;
+    font-size: 24px;
+  }
+
+  .produto_icone {
+    padding: 41px 0;
+  }
+
+  .produto_info ul li {
+    font-size: 18px;
+    line-height: 10px;
+    width: 149px;
+    height: 38px;
+  }
+
+  /*Orçamento*/
+
+  .form {
+    padding-right: 0px;
+  }
+
+  .form button {
+    border: none;
+    padding: 7px 40px;
+    margin-bottom: 20px;
+  }
+
+  /*Contato*/
+
+  .contato_form {
+    padding-right: 0px;
+  }
+
+  .contato_form {
+  padding-bottom: 0px;
+
+}
+}

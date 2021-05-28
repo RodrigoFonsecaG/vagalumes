@@ -1,0 +1,456 @@
+/*Estilos gerais*/
+
+body {
+  background: #efe4ce;
+  font-family: "Times New Roman", Times, serif;
+}
+
+p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.btn {
+  background-color: #d7a974;
+  padding: 13px 20px;
+  color: #344646;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #806a5e;
+  color: #efe4ce;
+}
+
+.btn.btn-branco:hover {
+  background: #344646;
+}
+
+.subtitulo {
+  color: #344646;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  margin-bottom: 40px;
+}
+
+.subtitulo:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #344646;
+  margin: 5px auto;
+}
+
+/*Header*/
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #e8cc9d;
+  padding: 10px 0;
+  z-index: 10;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.header_menu li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+.header_menu li a {
+  color: #344646;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.header_menu li a:hover {
+  color: #d7a974;
+}
+
+.header_menu li a.menu_ativo {
+  color: #fff;
+}
+
+/*Introdução*/
+
+.introducao {
+  width: 100%;
+  height: 380px;
+  background: url("../img/bg_home.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 91px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.introducao h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #efe4ce;
+  text-transform: uppercase;
+  word-spacing: 5px;
+  margin-bottom: 30px;
+}
+
+.quote-externo {
+  max-width: 300px;
+  max-height: 80px;
+  margin: 0 auto;
+  color: #efe4ce;
+  margin-bottom: 60px;
+}
+
+.quote-externo p {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.quote-externo p:before,
+.quote-externo p:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #efe4ce;
+  margin: 10px auto;
+}
+
+.quote-externo cite {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.introducao .btn {
+  margin-top: 40px;
+}
+
+/*Introdução interna*/
+
+.introducao-interna {
+  width: 100%;
+  margin-top: 91px;
+  height: 160px;
+  background-size: cover;
+  text-align: center;
+  color: #efe4ce;
+  padding-top: 40px;
+}
+
+.introducao-interna h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  word-spacing: 5px;
+}
+
+.introducao-interna h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #efe4ce;
+  margin: 2px auto 14px auto;
+}
+
+/*Produtos*/
+.produtos {
+  padding: 40px 0 70px 0;
+}
+
+.produtos_lista li {
+  background: #e8cc9d;
+  text-align: center;
+}
+
+.produtos_lista h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  margin-top: 10px;
+}
+
+.produtos_lista h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #344646;
+  margin: 2px auto;
+}
+
+.produtos_lista li p {
+  margin: 10px 20px 20px 20px;
+}
+
+.call {
+  text-align: center;
+  padding-top: 40px;
+  clear: both;
+}
+
+.call p {
+  margin-bottom: 20px;
+}
+
+/*CLIENTES*/
+
+.clientes {
+  width: 100%;
+  background: #806a5e;
+  padding: 40px 0 70px 0;
+}
+
+.clientes h2 {
+  color: #efe4ce;
+}
+
+.clientes h2:after {
+  background: #efe4ce;
+}
+
+.clientes li:last-child {
+  margin-top: 20px;
+}
+
+.clientes .call p {
+  color: #efe4ce;
+}
+
+/*Filosofia*/
+
+.filosofia {
+  padding: 40px 0 70px 0;
+  overflow: auto;
+}
+
+.filosofia:after {
+  content: "";
+  width: 622px;
+  height: 82px;
+  background: url("../img/linhas.svg") no-repeat center;
+  position: absolute;
+  top: 180px;
+  right: 169.8px;
+  z-index: -1;
+}
+
+.filosofia img {
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.filosofia_lista li {
+  text-align: center;
+  padding: 0 40px;
+}
+
+.filosofia_lista h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  margin-top: 10px;
+}
+
+.filosofia_lista h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #344646;
+  margin: 6px auto;
+}
+
+/*Quebra home*/
+
+.quebra {
+  background: url("../img/bg_quebra_home.jpg") no-repeat center;
+  width: 100%;
+  height: 280px;
+  background-size: cover;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.quebra .quote-externo {
+  max-width: 320px;
+}
+
+/*Footer*/
+
+.footer {
+  width: 100%;
+  background: #806a5e;
+  color: #e8cc9d;
+  padding: 40px 0;
+}
+
+.footer h3 {
+  font-size: 18px;
+  color: #efe4ce;
+  text-transform: uppercase;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+}
+
+.footer_historia h3:after {
+  content: "";
+  display: block;
+  width: 165px;
+  height: 3px;
+  background: #efe4ce;
+  margin: 6px 0 12px 0;
+}
+
+.footer_contato h3:after {
+  content: "";
+  display: block;
+  width: 95px;
+  height: 3px;
+  background: #efe4ce;
+  margin: 6px 0 12px 0;
+}
+
+.footer_redes h3:after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 3px;
+  background: #efe4ce;
+}
+
+.footer_historia {
+  padding-right: 60px;
+}
+
+.footer_contato ul li {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.footer_redes ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer_redes ul li a {
+  padding: 10px;
+}
+
+.copy {
+  width: 100%;
+  background-color: #d7a974;
+  padding: 20px 0;
+  color: #484b4d;
+}
+
+/*JAVACRIPT*/
+
+.js [data-slide] {
+  position: relative;
+}
+.js [data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+  z-index: 1;
+}
+
+.js [data-slide-nav] {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+.js [data-slide-nav] > button {
+  display: inline-block;
+  width: 12px;
+  margin: 4px;
+  height: 12px;
+  border: none;
+  padding: 0px;
+  border-radius: 6px;
+  background: #344646;
+  text-indent: -100px;
+  overflow: hidden;
+}
+.js [data-slide-nav] > button.active {
+  background: #efe4ce;
+}
+
+.js [data-anime] {
+  opacity: 0;
+}
+
+.js .fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: opacity 800ms, transform 800ms;
+}
+
+.nao-aparece {
+  visibility: hidden;
+  width: 0px;
+  position: absolute;
+}
+
+#form-sucesso h2,
+#form-erro h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+#form-sucesso p,
+#form-erro p {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#form-sucesso h2, #form-sucesso p{
+  color: #224b22;
+}
+#form-erro h2, #form-erro p{
+  color: #880808;
+}
