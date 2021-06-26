@@ -13,7 +13,7 @@ O site **Vagalumes** é um projeto de website inspirado no bikcraft da Origamid.
 
 
 ## 🖥️ Demonstração
-[![Bikcraft](https://imgur.com/y2Igoyu.png "Clique para acessar o projeto")](https://devmagno.github.io/bikcraft/views/index.html "Clique para acessar o projeto")   
+[![Bikcraft](https://imgur.com/y2Igoyu.png "Clique para acessar o projeto")]
 
 ## >>**[Clique aqui para acessar a demonstração do website](http://vagalumes.vercel.app/)**<<
 
